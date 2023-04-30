@@ -1,0 +1,38 @@
+.divButtons {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-family: "Fjalla One", sans-serif;
+}
+
+.buttonPage {
+  border: 1px solid rgb(15, 15, 15);
+  padding: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #252525;
+  font-family: "Fjalla One", sans-serif;
+
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: 2px solid #252525;
+  background: #ffffff;
+  box-shadow: 3px 3px #252525;
+  cursor: pointer;
+  margin: 35px 0;
+}
+
+.buttonPage:hover {
+  box-shadow: none;
+  transform: translate(3px, 3px);
+  border: 2px solid #ffffff;
+  background: #252525;
+  color: #ffffff;
+}
+
+.divSpace {
+  min-width: 50px;
+}
